@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+.env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Output files
+*.json
+*.csv
+summary.txt
+creds.txt
+data__
+byteoutput_*.bin
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Claude Code project files (not part of the tool)
+memory/
+.claude/
+CLAUDE.md
+
