@@ -15,6 +15,7 @@ Integrates detection checks for multiple CVEs into a single tool with one virtua
 | CVE-2023-27997 | SSL VPN heap buffer overflow - timing-based detection | FortiOS 6.0.x–7.2.x before June 2023 patches |
 | CVE-2024-21762 | SSL VPN out-of-bounds write via Transfer-Encoding | FortiOS 6.0.x–7.4.2 |
 | CVE-2024-55591 | Node.js websocket authentication bypass | FortiOS 7.0.0-7.0.16; FortiProxy 7.0.0-7.0.19, 7.2.0-7.2.12 |
+| CVE-2025-64446 | FortiWeb fwbcgi CGI authentication bypass via path traversal | Fortinet FortiWeb (see Fortinet advisory) |
 
 ---
 
@@ -158,3 +159,4 @@ Detection logic adapted from research by:
 - Bishop Fox (CVE-2023-27997 timing analysis)
 - Orange Tsai / @x41x41x41 / @DavidStubley (CVE-2018-13379)
 - Various public PoC researchers (CVE-2024-21762, CVE-2022-40684)
+- watchTowr Labs / SensePost (CVE-2025-64446)

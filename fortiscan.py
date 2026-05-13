@@ -47,6 +47,7 @@ from modules.cve_2022_40684 import CVE_2022_40684
 from modules.cve_2023_27997 import CVE_2023_27997
 from modules.cve_2024_21762 import CVE_2024_21762
 from modules.cve_2024_55591 import CVE_2024_55591
+from modules.cve_2025_64446 import CVE_2025_64446
 
 # ── Registry ─────────────────────────────────────────────────────────────────
 # To add a new check: import the class above and add one entry here.
@@ -57,6 +58,7 @@ REGISTRY = {
     "CVE-2023-27997":      CVE_2023_27997,
     "CVE-2024-21762":      CVE_2024_21762,
     "CVE-2024-55591":      CVE_2024_55591,
+    "CVE-2025-64446":      CVE_2025_64446,
 }
 
 BANNER = r"""
@@ -71,7 +73,7 @@ BANNER = r"""
 
 VERSION = "1.0.0"
 
-_FORTI_KEYWORDS = ["fortigate", "fortinet", "forticlient", "ssl-vpn", "sslvpn", "fortios"]
+_FORTI_KEYWORDS = ["fortigate", "fortinet", "forticlient", "ssl-vpn", "sslvpn", "fortios", "fortiweb"]
 _FORTI_CN_PREFIXES = ("FGT", "FGVM", "FGVMK", "FW", "FORTIGATE", "FORTINET")
 _TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.IGNORECASE | re.DOTALL)
 
